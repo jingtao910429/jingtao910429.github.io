@@ -8,43 +8,11 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Coder</description>
-    <pubDate>Thu, 18 Oct 2018 02:06:48 GMT</pubDate>
+    <pubDate>Fri, 19 Oct 2018 10:04:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>图片测试</title>
-      <link>http://yoursite.com/2018/10/18/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</link>
-      <guid>http://yoursite.com/2018/10/18/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</guid>
-      <pubDate>Thu, 18 Oct 2018 02:04:58 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/2018/10/18/图片测试/head.png&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;/p&gt;
-
-        
-      
-      </description>
-      
-      <content:encoded><![CDATA[<p><img src="/2018/10/18/图片测试/head.png" alt="你想输入的替代文字"></p>]]></content:encoded>
-      
-      <comments>http://yoursite.com/2018/10/18/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>我的测试文章</title>
-      <link>http://yoursite.com/2018/10/18/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</link>
-      <guid>http://yoursite.com/2018/10/18/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</guid>
-      <pubDate>Thu, 18 Oct 2018 01:49:37 GMT</pubDate>
-      <description>
-      
-      </description>
-      
-      <comments>http://yoursite.com/2018/10/18/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
+      <title>blog</title>
       <link>http://yoursite.com/2018/10/18/hello-world/</link>
       <guid>http://yoursite.com/2018/10/18/hello-world/</guid>
       <pubDate>Thu, 18 Oct 2018 01:46:55 GMT</pubDate>
