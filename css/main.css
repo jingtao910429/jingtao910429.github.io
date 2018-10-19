@@ -1855,7 +1855,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fffbb9;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3220,4 +3220,18 @@ ul {
 }
 .highlight:hover .btn-copy {
   opacity: 1;
+}
+.hider_title {
+  font-family: "Microsoft Yahei";
+  cursor: pointer;
+  color: #ff7600;
+}
+.close:after {
+  content: "~展开";
+}
+.open:after {
+  content: "~折叠";
+}
+.feed-link a {
+  display: inline-block;
 }
