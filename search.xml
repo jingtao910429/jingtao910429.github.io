@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[blog]]></title>
-    <url>%2F2018%2F10%2F18%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new postNewPoint 1234$ hexo new "My New Post"$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating 1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy &emsp;&emsp; More info: Deployment Run server1something you want to fold, include code block. NewPoint 123456789101112131415161718192021222324252627public abstract class L2Character extends L2Object &#123; public static final Short ABNORMAL_EFFECT_BLEEDING = 0x0_0_0_1; // not sure public void moveTo(int x, int y, int z) &#123; _ai = null; _log.warning("Should not be called"); if (1 &gt; 5) &#123; return; &#125; &#125; /** Task of AI notification */ @SuppressWarnings( &#123; "nls", "unqualified-field-access", "boxing" &#125;) public class NotifyAITask implements Runnable &#123; private final CtrlEvent _evt; List mList = new ArrayList() public void run() &#123; try &#123; getAI().notifyEvent(_evt, _evt.class, null); &#125; catch (Throwable t) &#123; t.printStackTrace(); &#125; &#125; &#125;&#125; More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites]]></content>
+    <title><![CDATA[GitHub+Hexo+Next博客搭建实战及优化]]></title>
+    <url>%2F2018%2F10%2F18%2FGitHub%2BHexo%2BNext%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AE%9E%E6%88%98%E5%8F%8A%E4%BC%98%E5%8C%96%2F</url>
+    <content type="text"><![CDATA[我的个人博客链接：jingtaotao.top 本文是针对有一定编程基础的Coder，采坑完善后的文章。 本文描述概念1、文中 yourname 指的是GitHub账号，比如笔者的 jingtao910429。2、文中 主目录 指的是 Hexo 目录。3、文中 主题目录 指的是 themes 目录。(配置主题时会涉及) 博客搭建基础1、Node.jswindows https://nodejs.org/en/ 下载安装。Linux 执行命令 sudo apt-get install nodejs 2、Gitwindows https://github.com/waylau/git-for-win 安装。Linux 执行命令 sudo apt-get install git 3、Hexo首先列出常用 Hexo 命令：12345$ hexo generate # 启动本地服务器$ hexo server # 在浏览器输入 http://localhost:4000/就可以看见网页和模板了$ hexo new &quot;文章名&quot; #新建文章$ hexo new page &quot;页面名&quot; #新建页面$ hexo deploy #发布到远端 对应的简写命令：1234hexo n == hexo newhexo g == hexo generatehexo s == hexo serverhexo d == hexo deploy 新建文件夹，安装 Hexo。进入Hexo安装目录，依次执行如下命令： npm install hexo-cli -g hexo init 初始化网站，此时，安装目录为 Hexo 主目录。也可以使用 hexo init blogCategory, 注意 blogCategory是Hexo安装目录下的二级目录，如果使用二级目录安装 Hexo 那么 Hexo 的主目录就是二级目录。 hexo s 浏览器打开 http://localhost:4000/ 预览网页。 GitHub配置部署1、GitHub创建Repositories创建如图的GitHub.io仓库，注意：yourname.github.io中yourname和Github上对应，如下图： 将主目录下_config.yml中的deploy修改如下：1234deploy: type: git repo: git@github.com:yourname/yourname.github.io.git #这里的网址填你自己的，这里使用的SSH地址，也可以使用https branch: master]]></content>
       <categories>
-        <category>测试</category>
+        <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>随想</tag>
+        <tag>博客搭建</tag>
+        <tag>Hexo+Next</tag>
       </tags>
   </entry>
 </search>
