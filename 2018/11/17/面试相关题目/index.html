@@ -118,7 +118,7 @@
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1829339-77757288cc139f44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1448717-f1923f87d53bd277.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1448717-c23167e42658955d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2018-11-24T04:52:00.332Z">
+<meta property="og:updated_time" content="2018-11-24T05:07:10.424Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="面试相关题目">
 <meta name="twitter:description" content="1.KVO实现原理KVO基本原理 1.KVO是基于runtime机制实现的 2.当某个类的属性对象第一次被观察时，系统就会在运行期动态地创建该类的一个派生类，在这个派生类中重写基类中任何被观察属性的setter 方法。派生类在被重写的setter方法内实现真正的通知机制 3.如果原类为Person，那么生成的派生类名为NSKVONotifying_Person 4.每个类对象中都有一个isa指针指">
@@ -506,6 +506,7 @@
 <p>结论：不可变进行copy是浅复制，mutableCopy是单层深复制，可变的copy，mutableCopy都是单层深复制。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NSArray *copyArray = [[NSArray alloc] initWithArray:array copyItems:YES];  // 完全复制</span><br></pre></td></tr></table></figure></p>
 <p>以上我们所说的两种情况默认都实现了NSCopying和NSMutableCopying协议<br>对于自定义继承自NSObject的类</p>
 <p>copy需要实现NSCopying协议，然后实现以下方法，否则copy会crash</p>
+<p>需要特别注意，可变数组或字典的copy与mutableCopy的区别，<a href="https://blog.csdn.net/Mazy_ma/article/details/51899397" target="_blank" rel="noopener">https://blog.csdn.net/Mazy_ma/article/details/51899397</a></p>
 <h2 id="Struct与Class"><a href="#Struct与Class" class="headerlink" title="Struct与Class"></a>Struct与Class</h2><p>Swift 中类和结构体非常类似，都具有定义和使用属性、方法、下标和构造器等面向对象特性，但是结构体不具有继承性，也不具备运行时强制类型转换、使用析构器和使用引用计等能力。</p>
 <p>Swift 中 struct 是值类型，而 class 是引用类型，所以这篇文章 struct 的行为也可以用到所有的值类型上面，相同地 class 的行为也可以用到引用类型上。</p>
 <h3 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h3><p>   1、安全性：</p>
